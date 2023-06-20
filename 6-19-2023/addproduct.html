@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="productstyle.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2>Add Products</h2>
+      <div class="form" action="#">
+        <div class="input-box">
+          <input type="text" id="image" placeholder="Image URL" required />
+        </div>
+        <div class="input-box">
+          <input type="text" id="price" placeholder="Price" required />
+        </div>
+        <div class="input-box">
+          <input type="text" id="des" placeholder="Description" required />
+        </div>
+        <div class="input-box">
+          <input type="text" id="location" placeholder="Location" required />
+        </div>
+        <div onclick="addProduct()" class="input-box button">
+          <input type="Submit" value="ADD PRODUCT" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

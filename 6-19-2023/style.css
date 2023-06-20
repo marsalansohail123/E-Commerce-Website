@@ -1,0 +1,10 @@
+li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 666px) {
+  ul {
+    flex-direction: column;
+  }
+}
